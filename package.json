@@ -1,0 +1,18 @@
+{
+  "name": "ricky-pet",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "head": "python tools/build_head.py"
+  },
+  "devDependencies": {
+    "vite": "^6.4.4"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  }
+}

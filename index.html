@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0221" />
+    <title>RICCARDO.EXE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=VT323&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+
+    <div class="hud">
+      <pre class="boot" id="boot" aria-live="polite"></pre>
+      <header class="title" id="title">
+        <h1 data-text="RICCARDO">RICCARDO</h1>
+        <p class="subtitle">// digital entity online</p>
+      </header>
+      <footer class="hint" id="hint">trascina per ruotare · doppio tocco per riassemblare</footer>
+    </div>
+
+    <div class="crt" aria-hidden="true"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.venv/
+.env
+.env.*
+.DS_Store
+tools/debug-*.jpg
+
+# Personal photos of Riccardo (and friends) never leave this machine.
+assets/photos/
+
+# MediaPipe models are large; fetch them with tools/fetch_models.sh
+tools/models/*.task
+tools/models/*.tflite
